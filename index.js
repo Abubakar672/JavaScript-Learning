@@ -36,3 +36,26 @@ function swap(){
     console.log("The value of b is now after swapping is: " + b );
 }
 swap();
+
+
+// Concetination concept
+var a=2;
+var b="+";
+var c=2
+var x = a+c;
+console.log(a + b + c + "=" + x );
+
+// Character counter 
+
+var text;
+text = prompt ("Enter your Tweet");
+var leng = 100;
+var counter = leng -text.length ;
+
+/* counting words here
+ console.log(counter);*/
+
+ console.log ("You have written  " +text.length+ " chanracters and you have  " + counter + " characters left" );
+
+ // Will prompt on the web browser
+ alert("You have written  " +text.length+ " chanracters and you have  " + counter + " characters left" );
