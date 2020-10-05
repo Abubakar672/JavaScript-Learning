@@ -160,7 +160,6 @@ lifeInWeeks(22);
 //Return Type functions
 
 function bill(cash){
-
 var bottlePrice=1.5;
 var bottle = Math.floor(cash/1.5);
 var change= Math.floor(cash % 1.5);   
@@ -169,3 +168,14 @@ var totalBill = bottlePrice*bottle;
 return alert("You will get " + bottle+ "and your bill is "+ totalBill + "Your change is "+ change);
 }
 bill(4);
+
+
+//BMI calculator
+
+function BMI(weight,height){
+var bmi = weight/(height*height);
+return bmi;
+}
+var results;
+results=BMI(65,1.8);
+console.log("Your BMI is " + results);
